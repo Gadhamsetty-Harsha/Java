@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Garden
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int r=sc.nextInt();
+        int c=sc.nextInt();
+        int t=sc.nextInt();
+        if((r>=0&&r<c)||(t%c==0)||(t%c==1))
+        {
+            System.out.println("Yes");
+        }
+        else
+        {
+            System.out.println("No");
+        }
+    }
+}
