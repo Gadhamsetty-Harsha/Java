@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Series5
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int d=121;
+        System.out.print(d);
+        int r=15;
+        int s;
+        for(int i=1;i<=n-1;i++)
+        {
+          s=r*r;
+          System.out.printf("% d",s);
+          r=r+4;
+        }
+    }
+}
