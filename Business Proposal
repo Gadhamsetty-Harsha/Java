@@ -1,0 +1,23 @@
+import java.util.*;
+public class Assessment2
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int p,i,y;
+        p=sc.nextInt();
+        i=sc.nextInt();
+        y=sc.nextInt();
+        float interest=(p*i*y)/100;
+        float amount=(p+interest);
+        float discount=(interest*2)/100;
+        float finalsettlement=(interest-discount)+p;
+        {
+        System.out.printf("%.2f\n",interest);
+        System.out.printf("%.2f\n",amount);
+        System.out.printf("%.2f\n",discount);
+        System.out.printf("%.2f\n",finalsettlement);
+            
+        }
+    }
+}
